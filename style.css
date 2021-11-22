@@ -1,0 +1,53 @@
+
+body{
+    display: flexbox; 
+    position: sticky;
+    background: linear-gradient(20deg,rgb(17, 82, 4),rgb(216, 64, 64),rgb(7, 75, 10));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-part{
+
+    padding-top: 100px;
+    
+    text-align: center;
+
+}
+#searchTxt{
+    font-size: 30px;
+    padding: 15px;
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    background: rgba(227, 234, 238, 0.164);
+    border: 0;
+    color: rgb(255, 254, 254);
+    font-family: 'Montagu Slab', serif;
+    text-align: center;
+}
+#submit{
+    margin:10px;
+    background: rgba(218, 225, 235, 0.144);
+    border: 0px ;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(240, 236, 232);
+}
+#submit:hover{
+    background: linear-gradient(0deg,rgba(85, 90, 109, 0.363),rgba(182, 160, 160, 0.507)) ;
+}
+#result{
+    text-align: center;
+    display: none ;
+    color: rgb(255, 254, 254);
+}
+#GPA{
+    background: rgba(205, 219, 83, 0.767);
+    border-radius: 5px;
+    padding: 0, 100px;
+    margin-top: 100px;
+}
